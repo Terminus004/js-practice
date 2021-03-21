@@ -1,22 +1,22 @@
 // JS is a Dynamic language which means value changes in runtime
 
-console.log('Hello World');
-let name = 'kali';
-console.log(name);
+console.log('Hello World'); //Prints hello world in console
+let name = 'kali'; //let and var are similar
+console.log(name); //prints variable name
 
 //after es6 we can use let in place of var
 
-let firstName = 'kali', lastName = 'linux';
+let firstName = 'kali', lastName = 'linux'; //Declare two variables in one line using ","
 
 let interestRate = 0.3;
 interestRate = 1;
 console.log(interestRate);
 
 const intRate = 0.3;
-// intRate = 1; // this will lead to an error message that const value cant change
+// intRate = 1; //<-- this will lead to an error message because const value can't change
 console.log(intRate);
 
-//1. Primitive Data Types 
+////////////////////########   1. Primitive Data Types   ########\\\\\\\\\\\\\\\\\\\\
 
 // let name = 'kali'; // String Literal
 let age = 20; // Number Literal
@@ -26,10 +26,10 @@ let selectedColor = null;
 
 console.log(typeof name);
 
-//2. Reference Types
+////////////////////########   2. Reference Data Types   ########\\\\\\\\\\\\\\\\\\\\\\
 // Object
 
- // let oName ='kali';
+ // let oName ='kali'; 
  // let oAge = 20;
 
 let person = {
